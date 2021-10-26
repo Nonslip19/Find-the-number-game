@@ -12,7 +12,9 @@ body{
     width: 100%;
 }
 
-#guess{
+#demo{
+    color: rgb(132, 0, 255);
+    font-size:1.3rem ;
 }
 
 #submit{
@@ -27,6 +29,8 @@ body{
 
 #submit:hover{
     background-color: burlywood;
+    color: black;
+    box-shadow: 2px 2px 3px #3128282f;
 }
 
 #guess{
@@ -42,4 +46,15 @@ body{
 
 img{
     width: 15%;
+}
+
+#attemps{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(3, 0, 179);
+}
+
+#sayac {
+    color: rgb(192, 29, 0);
+    font-size: 1.3rem;
 }
